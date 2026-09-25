@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+client/dist/
+client/dist-ssr/
+*.local
+
+# Database
+server/*.db
+server/*.db-journal
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE & System
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
